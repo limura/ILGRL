@@ -1,5 +1,15 @@
 ﻿# ja
 
-I Like Google Rather Link は気軽には踏めなそうなリンクについて、リンクの文字列をGoogle検索することでそれそのものをクリックすることを回避するためのChrome拡張機能です。
-リンクの上で右クリックしたときに、リンクの文字列をGoogle検索するためのメニューが追加されます。
+URLをクリックした時に期待することは、そのページが表示されることです。ただ、実際には中継ページのような所にとんで、そこからさらにコンテンツを探してクリック・・・のようなことを強いられることも多いですよね。だったらそのページで Google かけて飛んだ方がしっくりきませんかねぇ、というのがこの Chrome Extension の内容です。そのうち I'm feeling lucky みたいに飛びたいのですけどまだそこまでは出来ていません。よければお使いください。
+
+# en
+
+This chrome extension was named "ILGRL", which stands for I Like Google
+Rather Links. When web users clicked a link, the users expected that the
+new articles are appeared. However, some links are directed to
+intermediate websites. In this case, the user needs to seek content and
+then click the link. This chrome extension uses google search rather
+than URL navigation by links. The reason is simple - I like google
+rather links. In the future, I would like to enable this chrome plugin
+to navigate URLs with feeling lucky.
 
