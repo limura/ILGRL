@@ -1,6 +1,6 @@
 ﻿# ja
 
-URLをクリックした時に期待することは、そのページが表示されることです。ただ、実際には中継ページのような所にとんで、そこからさらにコンテンツを探してクリック・・・のようなことを強いられることも多いですよね。だったらそのページで Google かけて飛んだ方がしっくりきませんかねぇ、というのがこの Chrome Extension の内容です。そのうち I'm feeling lucky みたいに飛びたいのですけどまだそこまでは出来ていません。よければお使いください。
+URLをクリックした時に期待することは、そのページが表示されることです。ただ、実際には中継ページのような所にとんで、そこからさらにコンテンツを探してクリック・・・のようなことを強いられることも多いですよね。だったらそのページで Google かけて飛んだ方がしっくりきませんかねぇ、というのがこの Chrome Extension の内容です。
 
 # en
 
@@ -10,6 +10,5 @@ new articles are appeared. However, some links are directed to
 intermediate websites. In this case, the user needs to seek content and
 then click the link. This chrome extension uses google search rather
 than URL navigation by links. The reason is simple - I like google
-rather links. In the future, I would like to enable this chrome plugin
-to navigate URLs with feeling lucky.
+rather links.
 

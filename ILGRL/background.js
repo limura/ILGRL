@@ -1,7 +1,8 @@
 var NORMAL_SEARCH = "normal_search";
 var IM_FEELING_LUCKEY = "im_fealing_luckey";
 var SEARCH_QUERY = "https://www.google.com/search?q=";
-var IM_FEELING_LUCKY_QUERY = "https://www.google.com/search?btnI=I'm Feeling Lucky&q=";
+var IM_FEELING_LUCKY_QUERY = "https://www.google.co.jp/search?btnI=I%27m+Feeling+Lucky&q=";
+
 
 var linkText = undefined;
 
@@ -14,13 +15,13 @@ chrome.runtime.onInstalled.addListener(function() {
 		, "contexts": ["link"]
 		, "documentUrlPatterns": ["http://*/*", "https://*/*"]
 	});
-//	chrome.contextMenus.create({
-//		"type": "normal"
-//		, "title": chrome.i18n.getMessage("ContextMenuText_ImFeelingLuckySearch")
-//		, "id": IM_FEELING_LUCKEY
-//		, "contexts": ["link"]
-//		, "documentUrlPatterns": ["http://*/*", "https://*/*"]
-//	});
+	chrome.contextMenus.create({
+		"type": "normal"
+		, "title": chrome.i18n.getMessage("ContextMenuText_ImFeelingLuckySearch")
+		, "id": IM_FEELING_LUCKEY
+		, "contexts": ["link"]
+		, "documentUrlPatterns": ["http://*/*", "https://*/*"]
+	});
 });
 
 // add context menu clicke event handler
