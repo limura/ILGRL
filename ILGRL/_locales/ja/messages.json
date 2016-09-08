@@ -1,0 +1,14 @@
+﻿{
+  "ExtensionName": {
+    "message": "I Like Google Rather Link"
+  }
+  , "ExtensionDescription": {
+    "message": "右クリックで出てくるメニュー項目に、リンクの文字列をGoogle検索するものを追加します。"
+  }
+  , "ContextMenuText_NormalSearch": {
+    "message": "リンクの文字列を検索"
+  }
+  , "ContextMenuText_ImFeelingLuckySearch": {
+    "message": "リンクの文字列を検索 (I'm Feeling Lucky)"
+  }
+}

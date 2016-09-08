@@ -1,0 +1,14 @@
+{
+  "ExtensionName": {
+    "message": "I Like Google Rather Link"
+  }
+  , "ExtensionDescription": {
+    "message": "Add search link text on context menu."
+  }
+  , "ContextMenuText_NormalSearch": {
+    "message": "search link text"
+  }
+  , "ContextMenuText_ImFeelingLuckySearch": {
+    "message": "search link text (I'm Feeling Lucky)"
+  }
+}
